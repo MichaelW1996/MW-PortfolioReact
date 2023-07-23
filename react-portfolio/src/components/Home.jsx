@@ -1,24 +1,27 @@
 import { React } from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/index.css";
-
+import { Sidebar } from "./index";
+import { About } from "./index";
+import { Nav } from "./index";
 // Home
 
 const Home = () => {
   return (
-    <div>
-      <div className="mb-5">
-        <button>CV</button>
-        <p>background image needs selecting</p>
+    <div className="bg-hero-pattern bg-no-repeat bg-cover">
+      <div className="m-5 mb-10 flex justify-between">
+        <div className="bg-slate-300 rounded-md p-2">
+          <button>CV</button>
+        </div>
         <div>
-          <p>Sidebar goes here</p>
+          <Sidebar />
         </div>
       </div>
-      <div className="mb-5">
-        <p>about me goes here</p>
+      <div className=" flex mb-5">
+        <About />
       </div>
-      <div>
-        <p>contact things</p>
+      <div id="bottom_nav">
+        <Nav />
       </div>
     </div>
   );

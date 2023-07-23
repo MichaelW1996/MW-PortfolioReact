@@ -8,12 +8,12 @@ import "../assets/css/index.css";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <footer className="text-gray-900 mb-0 bg-white bg-opacity-90 border-t-0 mt-10 left-0 w-full z-0">
-      <div className="py-10">
+    <footer className="text-gray-900 mb-0 bg-white bg-opacity-90 border-t-0 left-0 w-full z-0">
+      <div className="py-5">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center sm:items-start">
           <div className="flex flex-col items-start">
-            <h2 className="text-base font-bold mb-4 text-sky-500">
-              Michael <span className="text-rose-600">Walters</span>
+            <h2 className="text-base font-bold mb-4">
+              Michael <span className="text-red-500">Walters</span>
             </h2>
           </div>
 

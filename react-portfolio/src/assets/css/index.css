@@ -15,3 +15,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Makes the bottom nav items take full screen */
+#bottom_nav div ul {
+  width: 100%;
+}
+#bottom_nav div ul li {
+  width: 100%;
+}
