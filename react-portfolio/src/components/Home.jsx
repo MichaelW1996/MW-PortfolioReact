@@ -9,15 +9,15 @@ import { Nav } from "./index";
 const Home = () => {
   return (
     <div className="bg-hero-pattern bg-no-repeat bg-cover">
-      <div className="m-5 mb-10 flex justify-between">
-        <div className="bg-slate-300 rounded-md p-2">
+      <div className="pt-5 mx-5 mb-10 flex justify-between">
+        <div className="bg-slate-300 rounded-md p-2 h-full">
           <button>CV</button>
         </div>
         <div>
           <Sidebar />
         </div>
       </div>
-      <div className=" flex mb-5">
+      <div className="mx-5 flex mb-5">
         <About />
       </div>
       <div id="bottom_nav">

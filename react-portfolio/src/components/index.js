@@ -4,5 +4,6 @@ import Home from "./Home";
 import Nav from "./Nav";
 import Sidebar from "./Sidebar";
 import About from "./About";
+import Cards from "./Cards";
 
-export { Header, Footer, Nav, Home, Sidebar, About };
+export { Header, Footer, Nav, Home, Sidebar, Cards,About };

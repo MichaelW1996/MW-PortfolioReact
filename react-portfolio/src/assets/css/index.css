@@ -23,3 +23,41 @@ code {
 #bottom_nav div ul li {
   width: 100%;
 }
+svg{
+  margin:10px;
+  display: unset;
+  vertical-align: unset;
+}
+
+
+.icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.icon {
+  transition: transform 0.3s ease;
+}
+
+.hovered {
+  transform: rotateY(180deg);
+}
+
+.language-name {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.icon-container:hover .language-name {
+  opacity: 1;
+}
