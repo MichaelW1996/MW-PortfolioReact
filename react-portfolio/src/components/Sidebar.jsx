@@ -30,11 +30,9 @@ const Sidebar = () => {
   }
 ]
   return (
-    <div className="bg-slate-300 rounded-md p-2">
+    <div className="md:w-[45vw] bg-slate-300 rounded-md p-2">
       <div>
-        <p>siddddebar</p>
-        <p>maybe a pic of michael</p>
-        <p>Icons of known technology here</p>
+        <h1 className="text-2xl">Skills</h1>
       </div>
       <div>
         <div>

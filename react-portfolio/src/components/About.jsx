@@ -3,10 +3,10 @@ import "../assets/css/index.css";
 
 const About = () => {
   return (
-    <div className="bg-slate-300 rounded-md p-2">
+    <div className="bg-slate-300 rounded-md p-2 text-lg">
       {/* add text styling */}
       <p>
-        My name is Michael, I'm a former Utility Surveyor, growing into a new
+        I'm a former Utility Surveyor, growing into a new
         career in Web development, starting with an Intensive 6 month program
         from the University of Birmingham. Over the last 7 years I've been
         directing a small team on large infrastructure projects such as HS2,
