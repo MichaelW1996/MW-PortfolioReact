@@ -7,7 +7,7 @@ import { Nav } from "./index";
 const Header = () => {
   return (
     <header className="flex flex-col md:flex-row items-center justify-between">
-      <Link to="/">
+      <Link to="/MW-PortfolioReact/">
       <h1 className="p-4 text-xl">
         &lt;Michael&gt;<span className="text-red-500"> &lt;/Walters&gt;</span>
       </h1></Link>

@@ -1,22 +1,21 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Link, Route, Routes } from "react-router-dom";
 import { Footer, Header, Home, Projects } from "./components";
 
 function App() {
   return (
-    <Router basename="/MW-PortfolioReact">
       <div className="App">
         <Header />
         <div>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/MW-PortfolioReact/" element={<Home />}/>
+            {/* <Route path="/" element={<Home />} /> */}
+            <Route path="/MW-PortfolioReact/projects" element={<Projects />} />
           </Routes>
         </div>
         <Footer />
       </div>
-    </Router>
   );
 }
 

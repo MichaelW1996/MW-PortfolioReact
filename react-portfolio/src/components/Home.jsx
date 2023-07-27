@@ -7,7 +7,6 @@ import { Nav } from "./index";
 // Home
 
 const Home = () => {
-
   const CVLink = 'https://drive.google.com/file/d/1wA-gFA2ioMNLY-NxGqSMBQedZCJv0u9e/view?usp=sharing';
   return (
     <div className="bg-hero-pattern bg-no-repeat bg-cover">
@@ -16,7 +15,7 @@ const Home = () => {
           <button className="p-4 h-auto" >CV</button>
         </div>
         <div className="image-container">
-          <img id="profilePic"src="../Michael.png" alt="Michael"></img>
+          <img id="profilePic"src="https://michaelw1996.github.io/MW-PortfolioReact/assets/Michael.png" alt="Michael"></img>
         </div>
         <div>
           <Sidebar />
@@ -27,7 +26,7 @@ const Home = () => {
       </div>
       <div id="bottom_nav">
       <ul className="flex p-2 ">
-        <Link to="/projects" className="p-2 m-2 text-2xl rounded-md bg-teal-600">Projects</Link>
+        <Link to="/MW-PortfolioReact/projects" className="p-2 m-2 text-2xl rounded-md bg-teal-600">Projects</Link>
         {/* <Link to="/contact" className="p-2 m-2 text-2xl rounded-md bg-teal-600">Contact</Link> */}
       </ul>
       </div>
