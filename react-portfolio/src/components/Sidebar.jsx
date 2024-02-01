@@ -27,6 +27,10 @@ const Sidebar = () => {
     name:"HTML5",icon: <Icon icon="devicon:html5" width="112" height="112" />
   },{
     name:"Bootstrap CSS",icon: <Icon icon="logos:bootstrap" width="112" height="112" />
+  }, {
+    name:"Python",icon: <Icon icon="logos:python" width="112" height="112" />
+  }, {
+    name: "PHP", icon: <Icon icon="logos:php" width="112" height="112" />
   }
 ]
   return (

@@ -7,7 +7,7 @@ import { Nav } from "./index";
 // Home
 
 const Home = () => {
-  const CVLink = 'https://drive.google.com/file/d/1wA-gFA2ioMNLY-NxGqSMBQedZCJv0u9e/view?usp=sharing';
+  const CVLink = 'https://drive.google.com/file/d/1w-zgqPTUKf2ehBzLP0iRQ4pvsEhPIni0/view?usp=sharing';
   return (
     <div className="bg-hero-pattern bg-no-repeat bg-cover">
       <div className="pt-5 mx-5 mb-10 flex flex-col md:flex-row justify-between">
